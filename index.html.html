@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+      <title>SIMPLE INTEREST CALCULATOR</title>
+    </head>
+    <body>
+        <h1 align="center" style="color: bisque; font-size: 70px;">SIMPLE INTEREST CALCULATOR</h1><br>
+    <div align="center">
+        
+            <label for="principal" style="color: burlywood; font-size: 30px;" id="PA" >Principal Amount : </label>
+            <input type="number" id="principal" name="principal" class="SI" placeholder="principal" style="width: 140px; height: 30px;"><br><br>
+            <label for="rate" style="color: burlywood; font-size: 30px;" id="RA">Rate : </label>
+            <input type="number" id="rate" name="rate" placeholder="rate" class="SI" style="width: 140px; height: 30px;"><br><br>
+            <label for="time" style="color: burlywood; font-size: 30px;" id="TI">Time : </label>
+            <input type="number" id="time" name="time" placeholder="time" class="SI" style="width: 140px; height: 30px;"><br><br>
+            <h2 id="result"></h2>
+        <p id="result" class="resultcalculator"></p>     
+            <button type="button" id="submit"  onclick=SimpleInterest()><b>calculate</b></button>
+            <button type="reset" id="reset" onclick=reset()><b>reset</b></button>
+        
+    </div>        
+    </body>
+    <script src="SI.js"> 
+   
+    </script>
+</html>
+
